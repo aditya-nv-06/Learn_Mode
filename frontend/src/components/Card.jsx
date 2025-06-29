@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 function Card({ title, description }) {
   return (
-    <div className="group relative block overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-700 dark:bg-gray-800/80 dark:hover:bg-gray-800">
+    <div className="group relative block overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-700 dark:bg-gray-800/80 dark:hover:bg-gray-800 transform hover:scale-105">
       <div className="p-6">
         <h2 className="text-2xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-400">
           {title}

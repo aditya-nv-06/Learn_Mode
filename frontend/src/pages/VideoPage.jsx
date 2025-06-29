@@ -15,11 +15,11 @@ function VideoPage() {
 
   return (
     <div className="grid h-screen grid-cols-[22%_78%] bg-gray-100 dark:bg-gray-950">
-      <div className="overflow-y-auto border-r border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
+      <div className="overflow-y-auto border-r border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900 z-50">
         <VideoSideBar />
       </div>
       <main className="overflow-y-auto p-6 lg:p-8">
-        <div className="mx-auto max-w-5xl">
+        <div className="mx-auto max-w-5xl pt-12">
           {currentVideo ? (
             <VideoSection key={currentVideo.id} src={currentVideo.src} courseName={courseName} />
           ) : (

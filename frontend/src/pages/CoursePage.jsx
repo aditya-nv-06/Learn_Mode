@@ -19,7 +19,7 @@ function CoursePage() {
   return (
     <div className="flex h-screen bg-gray-100 dark:bg-gray-950">
       {/* Sidebar for larger screens */}
-      <div className="hidden lg:block lg:w-64 lg:flex-shrink-0">
+      <div className="hidden lg:block lg:w-64 lg:flex-shrink-0 fixed top-0 left-0 h-full z-50 ">
         <SideBarCourse title="Courses" />
       </div>
 
@@ -35,7 +35,7 @@ function CoursePage() {
       </div>
 
       {/* Main Content */}
-      <main className="flex-1 overflow-y-auto">
+      <main className="flex-1 overflow-y-auto lg:ml-64 ">
         <div className="p-4 sm:p-6 md:p-8">
           <div className="mx-auto max-w-7xl">
             {/* Header */}

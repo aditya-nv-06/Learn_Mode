@@ -10,7 +10,7 @@ function SideBarCourse({ title }) {
   ];
 
   return (
-    <div className="flex h-full flex-col bg-white p-4 dark:bg-gray-900">
+    <div className="flex h-full flex-col bg-white p-4 dark:bg-gray-900 z-50 md:pt-12">
       <div className="mb-6 flex items-center gap-3 px-2">
         <h1 className="text-2xl font-bold text-gray-800 dark:text-white">{title}</h1>
       </div>
